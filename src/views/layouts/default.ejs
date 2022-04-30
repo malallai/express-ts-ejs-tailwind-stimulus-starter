@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html class="h-full" lang="en">
+<head>
+	<title>Welcome !</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="/stylesheets/styles.min.css" rel="stylesheet" type="text/css">
+
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" async></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="/js/bundle.js"></script>
+</head>
+
+<header><%- include('../partials/header') %></header>
+<body data-controller="hello">
+	<%- body %>
+</body>
+<footer><%- include('../partials/footer') %></footer>
+
+</html>
